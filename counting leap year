@@ -1,0 +1,15 @@
+#find out leap year
+year=int(input("write year: "))
+if year % 4 == 0:
+    print("leap year")
+else:
+    print("not leap year")
+
+#count how many words are written by user
+paragraph=input("write paragraph: ")
+count=0
+for char in paragraph:
+    if char==" ":
+        count = count + 1
+count = count + 1
+print(count)
